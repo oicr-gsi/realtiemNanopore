@@ -10,12 +10,12 @@
         <relativePath/>
     </parent>
 
-    <artifactId>realtime-nano</artifactId>
+    <artifactId>realtimeNanopore</artifactId>
     <version>1.0</version>
 
     <properties>
-        <workflow-description>Workflow to generate BAM files</workflow-description>
-        <wdl-workflow>minimap2.wdl</wdl-workflow>
+        <workflow-description>Workflow to create realtime nanopore reports</workflow-description>
+        <wdl-workflow>realtimeNanopore.wdl</wdl-workflow>
     </properties
 >
 </project>

@@ -21,7 +21,7 @@ workflow realtimeNanopore {
     meta {
         author: "Matthew Wong"
         email: "m2wong@oicr.on.ca"
-        description: "Workflow to run Structural Variant caller"
+        description: "Workflow to create realtime nanopore reports"
         dependencies: [{
             name: "nvidia-docker2",
             url: "https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)"

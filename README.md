@@ -1,6 +1,6 @@
 # realtimeNanopore
 
-Workflow to run Structural Variant caller
+Workflow to create realtime nanopore reports
 
 ## Overview
 
@@ -14,7 +14,7 @@ Workflow to run Structural Variant caller
 
 ### Cromwell
 ```
-java -jar cromwell.jar run realtime-nanopore.wdl --inputs inputs.json
+java -jar cromwell.jar run realtimeNanopore.wdl --inputs inputs.json
 ```
 
 ### Inputs

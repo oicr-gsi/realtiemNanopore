@@ -53,7 +53,7 @@ task generateReports {
         String inputPath
         String flowcell
         String kit
-        String sequencingSummaryFilename = "seqeuncing_summary.txt"
+        String sequencingSummaryFilename = "sequencing_summary.txt"
         String outputFileNamePrefix
         String modules = "guppy/3.2.4 nanoplot/1.27.0"
         String basecallingDevice = '"cuda:0 cuda:1"'

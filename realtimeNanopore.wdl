@@ -115,7 +115,7 @@ task generateReports {
         gpuCount: 2
         gpuType: "nvidia-tesla-v100"
         nvidiaDriverVersion: "396.26.00"
-        docker: "guppy_nvidia_docker:1.0"
+        docker: "guppy_nvidia_docker:1.1"
         dockerRuntime: "nvidia"
     }
 }
